@@ -143,19 +143,19 @@ export class OrionSprintAdapter extends TelegramAdapter {
   private formatEvent(event: SprintEvent): string {
     switch (event.type) {
       case 'planning_update': {
-        const p = event.payload as PlanningUpdatePayload;
-        return `[Sprint Planning Update] Sprint ${p.sprintId}: ${p.title}\n\n${p.body}`;
+        const { sprintId, title, body } = event.payload;
+        return `[Sprint Planning Update] Sprint ${sprintId}: ${title}\n\n${body}`;
       }
       case 'task_emitted': {
-        const t = event.payload as TaskEmissionPayload;
-        const parts: string[] = [`[Task ${t.taskId}] ${t.title}`];
-        if (t.description) parts.push(t.description);
-        if (t.assignee) parts.push(`Assignee: ${t.assignee}`);
+        const { taskId, title, description, assignee } = event.payload;
+        const parts: string[] = [`[Task ${taskId}] ${title}`];
+        if (description) parts.push(description);
+        if (assignee) parts.push(`Assignee: ${assignee}`);
         return parts.join('\n');
       }
       case 'acknowledgement': {
-        const a = event.payload as AcknowledgementRecord;
-        return `[Acknowledged] message ${a.originalMessageId}`;
+        const { originalMessageId } = event.payload;
+        return `[Acknowledged] message ${originalMessageId}`;
       }
     }
   }

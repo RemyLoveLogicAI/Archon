@@ -43,7 +43,7 @@ export interface AcknowledgementRecord {
 }
 
 /** Structured sprint event routed through the Archon execution spine */
-export interface SprintEvent {
-  type: SprintEventType;
-  payload: PlanningUpdatePayload | TaskEmissionPayload | AcknowledgementRecord;
-}
+export type SprintEvent =
+  | { type: 'planning_update'; payload: PlanningUpdatePayload }
+  | { type: 'task_emitted'; payload: TaskEmissionPayload }
+  | { type: 'acknowledgement'; payload: AcknowledgementRecord };
