@@ -13,3 +13,17 @@
 
 ---
 Logged via Orion Research Agent (Noon Sweep)
+
+### Night Sweep - Thursday, April 16, 2026
+
+**Big Four Market Performance**
+- **JPMorgan Chase (JPM)**: $308.99 (+$3.06, +1.0%). Traded up 1.2% after analyst upgrade and being released from an OCC order on trade surveillance.
+- **Bank of America (BAC)**: $53.49 (-$0.83, -1.53%). Stock reaction was negative despite strong Q1 2026 revenue and EPS growth highlights from earnings call.
+- **Citigroup (C)**: $129.31 (-$2.38, -1.81%). Weakest performer among the four today; latest major update remains the Q1 results from 4/14.
+- **Wells Fargo (WFC)**: $81.22 (+$0.93, +1.16%). Positive price action today; latest company update was the Q1 2026 results filing on 4/14.
+
+**Strategic Intelligence (Project Orion Context)**
+- Market is currently digesting Q1 2026 results. Divergence noted between JPM/WFC (positive) and BAC/C (negative).
+- JPM remains the sector leader with positive regulatory and analyst sentiment.
+
+Logged via Orion Research Agent (Night Sweep)
