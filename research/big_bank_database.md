@@ -27,3 +27,25 @@ Logged via Orion Research Agent (Noon Sweep)
 - JPM remains the sector leader with positive regulatory and analyst sentiment.
 
 Logged via Orion Research Agent (Night Sweep)
+
+---
+
+### Noon Sweep - Monday, April 20, 2026, 12:00 PM PDT
+
+#### 1. Big Four Market Performance
+- **JPMorgan Chase (JPM):** Price $316.12, ROE 15.74%.
+- **Bank of America (BAC):** Price $53.81, ROE 10.06%.
+- **Citigroup (C):** Price $132.83, ROE 6.74%.
+- **Goldman Sachs (GS):** Price $936.37, ROE 13.74%.
+
+#### 2. UK Banks / Operational Updates
+- **HSBC:** CAIO David Rice appointed.
+- **Barclays:** CEO warning on Mythos.
+- **Lloyds:** IT glitch data leak.
+- **NatWest:** Biometric data update.
+
+#### 3. Strategic Intelligence (Project Orion Context)
+- Claude Mythos risk briefings highlight zero-day vulnerabilities and coordination concerns.
+- Project Glasswing coordination remains a key containment and access-control consideration.
+
+Logged via Orion Research Agent (Noon Sweep)
